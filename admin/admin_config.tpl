@@ -12,14 +12,14 @@
 </style>
 {/html_head}
 
-This plugin display geographical location in your gallery using <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>.
+{'This plugin display geographical location in your gallery using <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>.'|@translate}
 <br/><br/>
-Refer to the <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/wiki" target="_blanck">plugin documentation</a> for additional information. Create an <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/issues" target="_blanck">issue</a> for support, or feedback, or feature request.
+{'Refer to the <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/wiki" target="_blanck">plugin documentation</a> for additional information. Create an <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/issues" target="_blanck">issue</a> for support, or feedback, or feature request.'|@translate}
 
 <div class="osm_layout">
   <legend>{'Statistics'|@translate}</legend>
   <ul>
-    <li class="update_summary_new">{$NB_GEOTAGGED} geotagged items in your gallery</li>
+    <li class="update_summary_new">{$NB_GEOTAGGED} {'geotagged items in your gallery'|@translate}</li>
   </ul>
 </div>
 
@@ -213,7 +213,7 @@ Refer to the <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/wiki" ta
 					{html_options options=$AVAILABLE_BASELAYER selected=$map.baselayer}
 				</select>
 				<br/><small>{'BASELAYER_DESC'|@translate}</small><br/>
-				<small>Check out <a href="http://leaflet-extras.github.io/leaflet-providers/preview/" target="_blank">this example</a> with half a hundred different layers to choose from.</small>
+				<small>{'Check out <a href="http://leaflet-extras.github.io/leaflet-providers/preview/" target="_blank">this example</a> with half a hundred different layers to choose from.'|@translate}</small>
 			</li>
 			<div id="custom-tile-toggle" style="visibility:hidden; width:0px; height:0px; display:none;">
 				<fieldset>
