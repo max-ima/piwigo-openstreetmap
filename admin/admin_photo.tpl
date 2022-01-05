@@ -39,16 +39,16 @@
 		<div style="float: left; margin: auto; padding-left:20px; vertical-align:top;">
                         <ul style="margin:0;">
 				<li>
-					<label><input type="text" size="9" id="osmlat" name="osmlat" value="{$LAT}"> {'LATITUDE'|@translate} (-90=S to 90=N)</label>
+					<label><input type="text" size="9" id="osmlat" name="osmlat" value="{$LAT}"> {'LATITUDE'|@translate} {'(-90=S to 90=N)'|@translate}</label>
 				</li>
 				<li>
-					<label><input type="text" size="9" id="osmlon" name="osmlon" value="{$LON}"> {'LONGITUDE'|@translate} (-180=W to 180=E)</label>
+					<label><input type="text" size="9" id="osmlon" name="osmlon" value="{$LON}"> {'LONGITUDE'|@translate} {'(-180=S to 180=N)'|@translate}</label>
 				</li>
 			</ul>
 			<hr>
 			<ul>
 				<li>
-					<label>Save places :</label>
+					<label>{'Save places :'|@translate}</label>
 					<select id="osmplaces" name="osmplaces" onchange="place_to_latlon(this)">
 						<option value="NULL">--</option>
 						{html_options options=$AVAILABLE_PLACES}
