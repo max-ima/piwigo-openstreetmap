@@ -12,14 +12,14 @@
 </style>
 {/html_head}
 
-Create tags from the address base on the GPS (latitude, longitude) metadata information. 
+{'Create tags from the address base on the GPS (latitude, longitude) metadata information.'|@translate} 
 <br/><br/>
-Refer to the <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/wiki" target="_blanck">plugin documentation</a> for additional information. Create an <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/issues" target="_blanck">issue</a> for support, or feedback, or feature request.
+{'Refer to the <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/wiki" target="_blanck">plugin documentation</a> for additional information. Create an <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/issues" target="_blanck">issue</a> for support, or feedback, or feature request.'|@translate}
 
 <div class="osm_layout">
   <legend>{'Statistics'|@translate}</legend>
   <ul>
-    <li class="update_summary_new">{$NB_GEOTAGGED} geotagged items in your gallery</li>
+    <li class="update_summary_new">{$NB_GEOTAGGED} {'geotagged items in your gallery'|@translate}</li>
   </ul>
 </div>
 
