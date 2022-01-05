@@ -6,9 +6,9 @@
 .showInfo { text-indent:5px; }
 {/html_style}
 
-Create place to allow reuse of location.
+{'Create place to allow reuse of location.'|@translate
 <br/><br/>
-Refer to the <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/wiki" target="_blanck">plugin documentation</a> for additional information. Create an <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/issues" target="_blanck">issue</a> for support, or feedback, or feature request.
+{'Refer to the <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/wiki" target="_blanck">plugin documentation</a> for additional information. Create an <a href="https://github.com/xbgmsharp/piwigo-openstreetmap/issues" target="_blanck">issue</a> for support, or feedback, or feature request.'|@translate
 
 {footer_script require='jquery'}
 jQuery('.showInfo').tipTip({
